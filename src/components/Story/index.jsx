@@ -2,12 +2,12 @@ import React from 'react';
 import className from 'classnames';
 import Styles from './index.module.css';
 
-function App() {
+function Story() {
   return (
-    <div className={className(Styles.app)}>
-      Initialize React App
+    <div className={className(Styles.story)}>
+      Initialize React Story
     </div>
   );
 }
 
-export default App;
+export default Story;

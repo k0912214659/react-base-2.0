@@ -18,6 +18,27 @@ This is React Project Code Base
 - **Coding Style** : [Airbnb](https://github.com/airbnb/javascript) (Use [Eslint](https://eslint.org/) to manager)
 - **Bundler** : [Webpack](https://github.com/webpack/webpack)
 
+## Project Quick Start
+
+Guide
+
+1. Clone the project from [Heros](https://github.com/k0912214659/react-base-2.0.git).
+2. Move the root path in project folder.
+3. Run `npm i` or `npm install` to install node_modules.
+4. The default server is on `localhost:4200`, please check you don't have any server on it.
+5. Run `npm run dev` to start dev server.
+6. You will see you server on [localhost:4200](localhost:4200).
+7. If you want to check the stage or production environment, please run `npm run stage` or `npm run prod` to check different env state.
+
+Steps
+
+```git bash
+git clone https://github.com/k0912214659/react-base-2.0.git
+cd react-base-2.0
+npm install
+npm run dev
+```
+
 ## License
 
 [The MIT License (MIT)](LICENSE)

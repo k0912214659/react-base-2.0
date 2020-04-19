@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "jsx": "react",
     "strict": true,
@@ -13,13 +13,13 @@
       "@Components/*": ["components/*"],
       "@Reducers/*": ["reducers/*"],
       "@API/*": ["api/*"],
-      "@Images": ["image-loader/*"],
       "@Tools/*": ["tools/*"],
       "@Hooks/*": ["hooks/*"],
       "@Models/*": ["models/*"],
       "@CSS/*": ["css/*"],
-      "@Langs": ["langs/*"]
+      "@Services/*": ["services/*"],
+      "@Providers/*": ["providers/*"]
     }
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "build"]
 }
